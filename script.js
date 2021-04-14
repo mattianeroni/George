@@ -114,7 +114,7 @@ class Bad {
 
 
 
-class Dick {
+class Banana {
   constructor (x, y) {
     this.width = 80;
     this.height = 100;
@@ -168,7 +168,7 @@ class Game {
 
   newFood (probability) {
     if(Math.random() <= probability){
-        this.food.push(new Dick(this.width, this.ground.y - 400));
+        this.food.push(new Banana(this.width, this.ground.y - 400));
     }
   }
 
